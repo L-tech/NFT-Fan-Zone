@@ -1,0 +1,19 @@
+{
+    "name": "LAKERS",
+    "symbol": "LK",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "BGz1255snjuVCLT4h2nUXm2m7qkpJv2XupEcwa3Zj6dh",
+          "share": 100
+        }
+      ]
+    }
+  }

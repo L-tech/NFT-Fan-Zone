@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
+import CandyMachine from './CandyMachine';
 
 // Constants
 const TWITTER_HANDLE = 'arome_dev';
@@ -75,6 +76,8 @@ const App = () => {
           <p className="sub-text">NFT drop machine with fair mint to prove loyalty to your team</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+          {/* Check for walletAddress and then pass in walletAddress */}
+      {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
